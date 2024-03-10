@@ -125,9 +125,26 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-*.pack
-*.json
-*.pack
-*.pack
-*.old
+
+
+
+# Node.js dependencies
+/node_modules
+/.vscode
+/.angular/cach
+
+# Angular build output
+/dist
+
+# Environment variables
+.env
+
+# IDE/editor specific files
+.idea
+.vscode
+
+# OS-specific files
+.DS_Store
 /workshop-components/.angular
+/resources/forum
+/Rest-api
