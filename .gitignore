@@ -128,3 +128,5 @@ dist
 *.pack
 *.json
 *.pack
+*.pack
+*.old
