@@ -20,6 +20,11 @@ export class ApiService {
   getPosts(limit?: number) {
     const { apiUrl } = environment;
 
-    return this.http.get<Post[]>(`${apiUrl}/posts`);
+    let url = `${apiUrl}/posts`;
+    if(limit) {
+      url +=`?limit=${limit}`
+    }
+
+    return this.http.get<Post[]>(url);
   }
 }
