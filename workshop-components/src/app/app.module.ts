@@ -10,7 +10,6 @@ import { ThemesListComponent } from './themes-list/themes-list.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PostItemComponent } from './post-list/post-item/post-item.component';
-import { LoaderComponent } from './share/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +17,7 @@ import { LoaderComponent } from './share/loader/loader.component';
     MainComponent,
     ThemesListComponent,
     PostListComponent,
-    PostItemComponent,
-    LoaderComponent
+    PostItemComponent
   ],
   imports: [
     BrowserModule,
