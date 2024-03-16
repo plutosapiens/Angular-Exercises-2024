@@ -9,13 +9,15 @@ import { MainComponent } from './main/main.component';
 import { ThemesListComponent } from './themes-list/themes-list.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PostItemComponent } from './post-list/post-item/post-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     ThemesListComponent,
-    PostListComponent
+    PostListComponent,
+    PostItemComponent
   ],
   imports: [
     BrowserModule,
