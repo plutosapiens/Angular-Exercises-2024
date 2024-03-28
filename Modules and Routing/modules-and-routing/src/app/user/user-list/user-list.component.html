@@ -4,3 +4,11 @@
     <span *ngIf="!isLoading">Reload Users</span>
     <app-spinner *ngIf="isLoading" />
 </div> -->
+
+<div>
+    <ul>
+        <li *ngFor="let user of users">
+            {{user.id}} - {{user.name}}
+        </li>
+    </ul>
+</div>
